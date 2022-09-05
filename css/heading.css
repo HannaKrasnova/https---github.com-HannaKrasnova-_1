@@ -1,0 +1,88 @@
+
+.heading__theme {
+    padding: 130px 0;
+    background-color: var(--background-color);
+ }
+
+ .heading{
+    padding: 0 24px;
+ }
+
+ .heading__container {
+    max-width: 1200px;
+    margin: auto;
+ }
+
+.header__small {
+    font-size: 14px;
+    line-height: 14px;
+    text-align: left;
+    text-transform: uppercase;
+    color: var(--h2-text-color);
+}
+
+.header__big {
+    font-family: "Signika Negative", sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: var(--h1-text-color);
+}
+
+.paragraph__text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: var(--text-color);
+  
+}
+
+.mybutton {
+    color: var(--contacts-form-background);
+    background-color: var(--h2-text-color);
+    padding: 17px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 156px;
+}
+
+.mybutton:hover{
+    color: var(--contacts-form-background);
+    background-color: var(--contacts-button-hover-background);
+    transition: 0.5s;
+}
+
+@media (min-width:768px) {
+    .heading__theme {
+        padding: 190px 0;
+     } 
+     .heading__container {
+    padding: 0 36px;
+    }
+    .header__big {
+        font-size: 70px;
+ }
+}
+
+@media (min-width:922px) {
+    .heading__theme {
+
+        background-image: url(../img/header/beefon.jpg);
+        background-size: cover;
+        padding: 250px 0;
+    }
+
+    .heading__container {
+        padding: 0 40px;
+    }
+
+    .heading {
+        padding: 0 40px;
+    }
+
+    .header__big {
+        font-size: 100px;
+    }
+}
+

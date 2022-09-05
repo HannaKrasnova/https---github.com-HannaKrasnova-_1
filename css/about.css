@@ -1,0 +1,102 @@
+.main__about{
+    margin: auto;
+    padding: 0 24px;
+    background-color: var(--background-color);
+}
+
+.main-about__container{
+    max-width: 1200px;
+    display: grid;
+    justify-content: center;
+    margin: auto;
+}
+
+.about-info__container{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px 0 15px;
+    margin-top: 50px;
+}
+
+.about-image__container{
+    text-align: center;
+    padding: 0 15px 0 15px;
+}
+
+.about-image{
+    width: 100%;
+}
+
+.about__subheading{
+    font-size: 38px;
+    margin-top: 10px;
+}
+
+.about-header__description{
+    color: var(--text-color);
+    font-size: 18px;
+    line-height: 28.8px;
+}
+
+.about-line{
+    background-color: var(--h2-text-color);
+}
+
+.about__items{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.about__item{
+    display: flex;
+    padding: 7.5px 0 7.5px 0;
+}
+
+.about__icon{
+    display: flex;
+    justify-items: flex-start;
+    width: 70px;
+    margin: 7.5px;
+}
+
+.about__icon img{
+    width: 70px;
+}
+
+.about__description{
+    margin: 7.5px;
+}
+
+.about__description h4{
+    color: var(--h3-text-color);
+    font-size: 22px;
+    font-family: "Signika Negative", sans-serif;
+    line-height: 30.8px;
+}
+
+.about__description p{
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 27.2px;
+}
+
+@media (min-width: 720px){
+    .main-about__container{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 768px){
+    .main__about{
+        padding: 0 32px;
+    }
+}
+
+@media (min-width: 922px){
+    .main__about{
+        padding: 0 40px;
+        background-image: url(../img/about/about-background.jpeg);
+        background-size: cover;
+    }
+}

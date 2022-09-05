@@ -1,0 +1,31 @@
+.gallery__section {
+    margin: auto;
+    background-color: var(--background-color);
+    padding: 60px 24px 60px 24px;
+}
+
+.gallery-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-wrapper img{
+    width: 200px;
+    padding: 5px;
+    border-radius: 8px;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+@media (min-width:768px) {
+    .gallery-wrapper img{
+        flex-basis: 33.333%;
+    }
+}
+
+@media (min-width:848px) {
+    .gallery-wrapper img{
+        flex-basis: 20%;
+    }
+}
